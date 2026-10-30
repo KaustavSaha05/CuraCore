@@ -1,0 +1,98 @@
+# ====================================================================
+# CuraCore - Master .gitignore
+# ====================================================================
+
+# --------------------------------------------------------------------
+# Environment Variables & Secrets (CRITICAL: Never commit credentials)
+# --------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+.streamlit/secrets.toml
+
+# --------------------------------------------------------------------
+# Node.js & Frontend (CuraCore-Project)
+# --------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs & caches
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+.parcel-cache/
+.eslintcache
+
+# --------------------------------------------------------------------
+# Python & Backend (Medical_Chatbot)
+# --------------------------------------------------------------------
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging & distribution
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+parts/
+sdist/
+var/
+wheels/
+
+# Unit test & coverage reports
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# --------------------------------------------------------------------
+# Vector Store & Heavy Medical Corpora (FAISS / Embeddings / Raw PDFs)
+# Note: Run `python memory_llm.py` to generate the local FAISS index.
+# Large files (>50MB-100MB) exceed standard GitHub file limits.
+# --------------------------------------------------------------------
+*.faiss
+*.pkl
+Medical_Chatbot/data/*.pdf
+!Medical_Chatbot/data/.gitkeep
+!Medical_Chatbot/vectorstore/db_faiss/.gitkeep
+
+# --------------------------------------------------------------------
+# Operating System & Editor Files
+# --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

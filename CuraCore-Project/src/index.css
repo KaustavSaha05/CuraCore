@@ -1,0 +1,48 @@
+/* src/index.css */
+
+/* --- Google Fonts Import for the classic look --- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Custom Global Styles for the classic theme --- */
+body {
+  font-family: 'Lora', serif; /* Classic serif font for body text */
+  color: #3a3a3a; /* Darker, softer gray for text */
+  background-color: #fdfdfa; /* A very light cream background */
+}
+
+/* Use a more elegant font for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #2c3e50; /* Deep charcoal blue for headings */
+}
+
+/* --- New styles for your feature cards to act as smaller buttons --- */
+.classic-feature-card {
+  background-color: #ffffff;
+  padding: 1.25rem; /* Reduced padding for a smaller feel */
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.classic-feature-card:hover {
+  transform: translateY(-3px); /* Add a subtle lift effect on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  border-color: #a3b1c6;
+}
+
+.classic-feature-card h3 {
+  font-size: 1.25rem; /* Slightly smaller heading */
+  color: #4a6572; /* Muted blue-gray for the title */
+}
+
+.classic-feature-card p {
+  font-size: 0.9rem; /* Smaller description text */
+  color: #555;
+}
