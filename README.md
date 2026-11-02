@@ -12,12 +12,13 @@
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
 [![FAISS](https://img.shields.io/badge/Vector%20DB-FAISS-00599C?style=for-the-badge)](https://github.com/facebookresearch/faiss)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS%203-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Developer: Kaustav Saha](https://img.shields.io/badge/Developer-Kaustav%20Saha-10B981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaustavSaha05)
 
 <p align="center">
   <b>CuraCore</b> is a full-stack, production-ready AI healthcare assistant that bridges clinical data with actionable patient intelligence. Leveraging state-of-the-art <b>Retrieval-Augmented Generation (RAG)</b>, <b>Multimodal Computer Vision</b>, <b>Geospatial Mapping</b>, and <b>Interactive Biometric Telemetry</b>, CuraCore delivers reliable, verifiable medical guidance with zero fluff.
 </p>
 
-[Key Features](#-key-features) • [Architecture](#-system-architecture) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start-guide) • [API Docs](#-api-reference) • [Configuration](#-configuration--environment-variables) • [Troubleshooting](#-troubleshooting) • [Disclaimer](#-medical--legal-disclaimer)
+[Key Features](#-key-features) • [Architecture](#-system-architecture) • [Tech Stack](#-technology-stack) • [Quick Start](#-quick-start-guide) • [API Docs](#-api-reference) • [Configuration](#-configuration--environment-variables) • [Troubleshooting](#-troubleshooting) • [Developer](#-developer--contact) • [Disclaimer](#-medical--legal-disclaimer)
 
 ---
 
@@ -46,6 +47,7 @@
 - [Troubleshooting](#-troubleshooting)
 - [Deployment Guide](#-deployment-guide)
 - [Contributing](#-contributing)
+- [Developer & Contact](#-developer--contact)
 - [Medical & Legal Disclaimer](#-medical--legal-disclaimer)
 - [License](#-license)
 
@@ -243,8 +245,8 @@ Follow these steps to set up and run CuraCore on your local machine.
 Open your terminal (PowerShell, Bash, or Zsh) and clone the codebase:
 
 ```bash
-git clone https://github.com/your-username/Curacore.git
-cd Curacore
+git clone https://github.com/KaustavSaha05/CuraCore.git
+cd CuraCore
 ```
 
 ---
@@ -608,6 +610,15 @@ We welcome contributions from the community! To contribute:
 
 ---
 
+## 👨‍💻 Developer & Contact
+
+**Developed by:** Kaustav Saha  
+- **GitHub:** [@KaustavSaha05](https://github.com/KaustavSaha05)  
+- **Email:** [kaustav.saha04@gmail.com](mailto:kaustav.saha04@gmail.com)  
+- **Repository:** [https://github.com/KaustavSaha05/CuraCore](https://github.com/KaustavSaha05/CuraCore)
+
+---
+
 ## ⚠️ Medical & Legal Disclaimer
 
 > [!CAUTION]
@@ -628,5 +639,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <b>Black Clover</b> • © 2026 CuraCore. All Rights Reserved.</sub>
+  <sub>Developed with ❤️ by <a href="https://github.com/KaustavSaha05"><b>Kaustav Saha</b></a> • © 2026 CuraCore. All Rights Reserved.</sub>
 </div>
